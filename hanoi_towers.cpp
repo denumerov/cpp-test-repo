@@ -27,10 +27,19 @@ public:
             throw invalid_argument("Невозможно поместить большой диск на маленький");
         } else {
             // допишите этот метод и используйте его в вашем решении
+            disks_.push_back(disk);
         }
     }
+    
 
     // вы можете дописывать необходимые для вашего решения методы
+    
+    void MoveHanoi(int disks_num, Tower& destination, Tower& buffer) {
+        if (disks_num > 1) {
+             
+        }
+        return;
+    }
 
 private:
     vector<int> disks_;
