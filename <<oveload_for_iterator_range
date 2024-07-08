@@ -1,0 +1,8 @@
+template <typename MyIterator>
+ostream& operator<<(ostream& output, const IteratorRange<MyIterator> range) {
+    for (auto it = range.begin(); it != range.end(); ++ it) {
+         output << *it;
+    }
+    output << endl;
+    return output;
+}
