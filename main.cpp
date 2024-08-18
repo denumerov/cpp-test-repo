@@ -1,5 +1,9 @@
-#include <iostream>
+#include "simple_vector.h"
+
+// Tests
+#include "tests.h"
 
 int main() {
-    std::cout << "Hello, Git!" << std::endl;
+    Test1();
+    return 0;
 }
